@@ -19,7 +19,7 @@ This is a **Vanilla HTML/CSS/JS** application. No build tools or servers are req
 ### How to Run
 
 1. Clone or download this repository.
-2. Open `index.html` in any modern web browser.
+2. Open https://snailmailer.github.io/6q-lean-agile-ai/ in any modern web browser.
 
 That's it!
 
