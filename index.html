@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="6Q Lean Agile AI: Intelligent Decision Support Assistant combining DMAIC and Agile methodologies.">
+    <title>6Q Lean Agile AI - Decision Assistant</title>
+    
+    <!-- 1. Google Fonts: Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- 2. Lucide Icons (CDN) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- 3. Local Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <!-- HEADER -->
+        <header class="main-header">
+            <div class="logo-area">
+                <i data-lucide="zap" class="logo-icon"></i>
+                <h1 class="logo-text">6Q <span>Lean Agile AI</span></h1>
+            </div>
+            <nav class="main-nav">
+                <!-- Simple actions like reset/dark mode toggle could go here -->
+                <button id="reset-btn" class="nav-btn" aria-label="Reset Session" title="Start Over">
+                    <i data-lucide="rotate-ccw"></i>
+                </button>
+            </nav>
+        </header>
+
+        <!-- MAIN CONTENT AREA -->
+        <main id="app-content" class="content-wrapper">
+            <!-- Content will be injected by app.js -->
+            <!-- 1. Landing Page -->
+            <!-- 2. Wizard Steps -->
+            <!-- 3. Summary/Results -->
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="main-footer">
+            <p>&copy; 2026 6Q Lean Agile AI. Empowering Decisions.</p>
+        </footer>
+    </div>
+
+    <!-- 4. Local Script -->
+    <script src="js/app.js"></script>
+    <script>
+        // Initialize icons after load
+        lucide.createIcons();
+    </script>
+</body>
+</html>
